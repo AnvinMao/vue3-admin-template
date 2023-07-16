@@ -1,0 +1,19 @@
+@import "./sidebar";
+@import "./reset";
+
+.app-container {
+  padding: 15px;
+
+  .wrapper {
+    padding: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid var(--el-border-color-light);
+    border-radius: var(--borderRadius);
+    box-shadow: var(--el-box-shadow-light);
+  }
+}
+
+#nprogress .bar {
+  background: var(--el-color-primary) !important;
+}

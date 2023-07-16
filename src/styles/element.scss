@@ -1,0 +1,35 @@
+$--colors: (
+  "primary": (
+    "base": #2f408a,
+  ),
+  "success": (
+    "base": #2ba471,
+  ),
+  "danger": (
+    "base": #fa2256,
+  ),
+);
+
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: $--colors,
+  $text-color: (
+    "primary": #2f408a,
+    "secondary": #9da5c8,
+  ),
+  $bg-color: (
+    "page": #f5f7fc,
+  ),
+  $menu: (
+    "item-height": 50px,
+  ),
+  $border-color: (
+    "": #d9dfed,
+  ),
+  $box-shadow: (
+    "light": 0 0 20px rgba(15, 51, 122, 0.12),
+    "lighter": 0 0 6px rgba(15, 51, 122, 0.12),
+  ),
+  $card: (
+    "border-radius": 10px,
+  )
+);
